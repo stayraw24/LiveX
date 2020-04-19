@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267920073158",
+    "firebase_url": "https://livex-2e088.firebaseio.com",
+    "project_id": "livex-2e088",
+    "storage_bucket": "livex-2e088.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267920073158:android:1930d7639649ac77a852c7",
+        "android_client_info": {
+          "package_name": "com.livex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267920073158-6ith7cj2erfepm0a4oeo5ethg71aa2k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.livex",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "267920073158-e0nkgacm6ror0km1lkkmvuq1rn0863la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADqomfwz9pJcn_h3Har_-3Q-Wydr4vOug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267920073158-e0nkgacm6ror0km1lkkmvuq1rn0863la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
