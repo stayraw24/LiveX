@@ -8,7 +8,7 @@ export default class SideBar extends Component {
           <List>
             <ListItem thumbnail>
               <Left>
-                <Thumbnail square source={{ uri: 'Image URL' }} />
+                //<Thumbnail square source={{ uri: 'Image URL' }} />
               </Left>
               <Body>
                 <Text>Sankhadeep</Text>

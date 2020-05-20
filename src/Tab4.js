@@ -18,8 +18,8 @@ export default class ListThumbnailExample extends Component {
     console.log("started");
 console.log(this.state);
     var url = 'http://newsapi.org/v2/top-headlines?' +
-          'country=in&' +
-          'category=business&' +
+          'country=us&' +
+          'category=general&' +
           'apiKey=39d7ec10bd874b6c9333b8b4fe88f949';
 var req = new Request(url);
 
@@ -35,6 +35,7 @@ var req = new Request(url);
     })
  }
 
+ 
   _renderItem = ({item,index}) => {
     return(
       <TouchableOpacity>
@@ -63,7 +64,7 @@ var req = new Request(url);
     //console.log(this.state);
     
     return (
-   <View>
+      <View>
             {
               this.state.isLoading ? 
                   <ActivityIndicator style={{marginTop:200,alignSelf:'center'}} animating={this.state.isLoading}/>

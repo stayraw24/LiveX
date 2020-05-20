@@ -15,7 +15,7 @@ import Tabs from './Tabs';
 
 export default class PhoneAuth extends Component {
  state = {
- phone: '',
+ phone: '+91',
  confirmResult: null,
  verificationCode: '',
  userId: ''

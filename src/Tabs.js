@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import { Container, Header, Tab, Button, Icon, Body, Content, Left, Tabs, ScrollableTab, Title } from 'native-base';
+import { Container, Header, Tab, Content,
+Footer, FooterTab, Button,Text, Badge, Body, 
+Left, Tabs, ScrollableTab, Title } from 'native-base';
 import Tab1 from './Tab1';
 import Tab2 from './Tab2';
 import Tab3 from './Tab3';
+import Tab4 from './Tab4';
+import Tab5 from './Tab5';
 import {Drawer} from 'native-base';
 import SideBar from './SideBar';
 import {Alert, BackHandler} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+
 
 export default class TabsScrollableExample extends Component {
 
@@ -37,7 +44,6 @@ export default class TabsScrollableExample extends Component {
         <Title style={{alignSelf:'center',fontSize:25}}>NewsX</Title>
         <Title style={{alignSelf:'center',fontSize:10}}>News.Not Noise.</Title>
                     <Body>
-                    <Title style={{ color: '#FFF'}}> title </Title>
                     </Body>   
                 </Header>
         <Tabs renderTabBar={()=> <ScrollableTab />}>
@@ -47,14 +53,18 @@ export default class TabsScrollableExample extends Component {
           <Tab heading="Technology">
             <Tab2 />
           </Tab>
-          <Tab heading="National ">
+          <Tab heading="Business ">
           <Tab3 />
           </Tab>
-          <Tab heading="International">
-          <Tab3/>
+          <Tab heading="World">
+          <Tab4/>
+          </Tab>
+          <Tab heading="COVID19-tracker">
+          <Tab5/>
           </Tab>
         </Tabs>
       </Container>
     );
   }
 }
+

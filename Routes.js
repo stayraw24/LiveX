@@ -5,11 +5,14 @@ import Splash from './src/Splash';
 import PhoneAuth from './src/PhoneAuth';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import Webviewimg from './src/Webviewimg';
+
 
 const Stack = createStackNavigator();
 
 function App() {
   return (
+
     <NavigationContainer>  
       <Stack.Navigator
       screenOptions={{
@@ -19,10 +22,14 @@ function App() {
   		<Stack.Screen name="Splash" component={Splash}/>
       <Stack.Screen name="PhoneAuth" component={PhoneAuth}/>
         <Stack.Screen name="Tabs" component={Tabs} />
+        <Stack.Screen name="Webviewimg" component={Webviewimg}/>
       
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
 
+
 export default App;
+
+
